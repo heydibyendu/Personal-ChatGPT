@@ -1,7 +1,4 @@
 
-A personal ChatGPT app, using LangChain and OpenAI. Build with Streamlit - Hugging Face
-
-
 ---
 title: LLMsIntro
 emoji: 💻
