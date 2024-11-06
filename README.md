@@ -14,3 +14,54 @@ The integration with Streamlit allows for a user-friendly web interface, while H
     Streamlit Interface: Simple, interactive front end powered by Streamlit for seamless user experience.
     Customizable Configuration: Adjust configurations to tailor the model’s responses to specific domains or personalities.
     Hosted on Hugging Face Spaces: Convenient hosting with Hugging Face for easy access and deployment.
+
+🚀 Quick Start
+
+Clone the Repository
+
+
+Install Dependencies
+
+Ensure you have the necessary Python libraries installed.
+
+bash
+
+pip install -r requirements.txt
+
+Set Up OpenAI API Key
+
+You'll need an API key from OpenAI to use their API. Set this in your environment variables:
+
+bash
+
+export OPENAI_API_KEY="your_openai_api_key"
+
+Run the App
+
+Launch the app with Streamlit:
+
+bash
+
+    streamlit run app.py
+
+    Host on Hugging Face Spaces
+
+    To deploy on Hugging Face, make sure your repository includes a space.yml configuration file as described in the Spaces Configuration Reference.
+
+📁 Project Structure
+
+plaintext
+
+├── app.py                # Main Streamlit application file
+├── requirements.txt      # Dependencies required to run the app
+├── space.yml             # Configuration file for Hugging Face Spaces hosting
+└── README.md             # Project documentation
+
+⚙️ Configuration
+
+You can adjust the following settings in app.py to personalize the app:
+
+    Model Settings: Customize the response generation by adjusting LangChain configurations.
+    Conversation Memory: Enable or disable memory features to retain context across conversations.
+
+For more details on configuring Spaces, refer to the Spaces Configuration Reference.
